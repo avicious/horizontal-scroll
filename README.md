@@ -2,14 +2,14 @@
 
 A performance-optimized horizontal scroll component built with React. This slider uses direct DOM manipulation via `refs` to ensure the UI stays in sync with manual user scrolls while providing smooth programmatic navigation.
 
-## ✨ Features
+## Features
 
 - **DOM-Synced Navigation**: Uses `scrollLeft` directly, preventing the "jumpy" behavior found in state-based sliders.
 - **Native Smooth Scrolling**: Leverages the browser's native `scrollTo` API for fluid transitions.
 - **Lightweight**: Zero external dependencies.
 - **Swipe Support**: Works out-of-the-box with trackpads and touch devices.
 
-## 🛠️ Usage
+## Usage
 
 ### 1. Data Structure
 Ensure your data source (e.g., `./utils/data.js`) follows this format:
