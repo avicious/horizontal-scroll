@@ -2,6 +2,10 @@
 
 A performance-optimized horizontal scroll component built with React. This slider uses direct DOM manipulation via `refs` to ensure the UI stays in sync with manual user scrolls while providing smooth programmatic navigation.
 
+## Live Demo
+
+**Check out the live version of this project here:** [avicious.github.io/horizontal-scroll/](https://avicious.github.io/horizontal-scroll/)
+
 ## Features
 
 - **DOM-Synced Navigation**: Uses `scrollLeft` directly, preventing the "jumpy" behavior found in state-based sliders.
